@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin: 47px 0px 0px 42px;
+}
+
+.link-menu {
+    margin-right: 32px;
+    color: #17233D;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    cursor: pointer;
+}
+
+.button-sign-up {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    color: #FFFFFF;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+
+}
+
+main {
+    display: inline-block;
+}
+
+img {
+    margin-left: 121px;
+    margin-top: 177px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+    width: 500px;
+}
+
+h1 {
+    color: #161A49;
+    line-height: 82px;
+    font-weight: 700;
+    font-size: 62px;
+}
+
+p {
+    font-weight: 400;
+    color: #4B505A;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+}
+
+.button-learn-more {
+    color: #6FBF44;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+
+    margin-top: 55px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.226);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1261px) {
+    .menu-navigation :not(.button-sign-up) {
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+
+    .button-sign-up {
+        position: absolute;
+        right: 15px;
+        top: 17px;
+    }
+
+    main {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    img {
+        margin: 0;
+        position: absolute;
+        width: 80%;
+        margin: 0 39px 22px 39px;
+        top: 55%;
+    
+    }
+
+    section {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    h1 {
+        margin: 80px 57px 0px 57px;
+        width: 278px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+    }
+
+    p {
+        margin-top: 29px;
+        padding: 0 43px;
+        width: auto;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+    }
+
+
+    .button-learn-more {
+        display: block;
+        margin: 20px auto;
+        
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    img{
+        top: 70%;
+    }
+}
