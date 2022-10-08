@@ -6,7 +6,7 @@
 
 <h3>Tecnologias utilizadas<h3>
 <p>-HTML</p>
-<p>-SS</p>
+<p>-CSS</p>
 
 <br>
 <img src="https://github.com/Edivilhian-H/Wide-coverage/blob/master/assets/desktop.png?raw=true"/>
